@@ -1,11 +1,11 @@
 <?php
 
 class MathO {
-    function clear($val){
+    function clear($val){//метод отчистки данных
         $value=htmlspecialchars(strip_tags($val));
          return $value;
     }
-    function mathOperation($arg1, $arg2, $operation){
+    function mathOperation($arg1, $arg2, $operation){//метод выбора мат. операций
         $this->arg1=$this->clear($arg1);
         $this->arg2=$this->clear($arg2);
         $this->operation=$operation;

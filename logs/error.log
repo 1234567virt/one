@@ -1,0 +1,9 @@
+[Thu Feb 27 01:23:33.488727 2020] [negotiation:error] [pid 9034] [client 127.0.0.1:49128] AH00690: no acceptable variant: /opt/lampp/error/HTTP_NOT_FOUND.html.var
+[Fri Nov 27 21:04:01.436035 2020] [php7:error] [pid 23264] [client 127.0.0.1:42808] script '/opt/lampp/htdocs/esense.media/public_html/catalog.php' not found or unable to stat, referer: http://esense.media/public_html/calc.php
+[Sun Nov 29 02:34:00.991442 2020] [php7:error] [pid 6945] [client 127.0.0.1:57240] script '/opt/lampp/htdocs/esense.media/public_html/result.php' not found or unable to stat
+[Sun Nov 29 02:34:28.958910 2020] [php7:error] [pid 6944] [client 127.0.0.1:57244] script '/opt/lampp/htdocs/esense.media/controller/index.php' not found or unable to stat
+[Sun Nov 29 02:34:51.655001 2020] [php7:error] [pid 6942] [client 127.0.0.1:57264] script '/opt/lampp/htdocs/esense.media/controller/index.php' not found or unable to stat
+[Sun Nov 29 02:35:18.985861 2020] [php7:error] [pid 6586] [client 127.0.0.1:57274] script '/opt/lampp/htdocs/esense.media/controller/index.php' not found or unable to stat
+[Sun Nov 29 13:53:19.588232 2020] [php7:error] [pid 5520] [client 127.0.0.1:57888] script '/opt/lampp/htdocs/esense.media/engine/calculaor_class.php' not found or unable to stat
+[Sun Nov 29 21:47:55.227573 2020] [core:alert] [pid 5754] [client 127.0.0.1:52276] /opt/lampp/htdocs/esense.media/.htaccess: Redirect to non-URL
+[Sun Nov 29 21:48:22.380421 2020] [core:alert] [pid 5744] [client 127.0.0.1:52290] /opt/lampp/htdocs/esense.media/.htaccess: Redirect to non-URL
