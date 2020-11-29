@@ -1,0 +1,11 @@
+controller-
+  result -  ответ json  
+engine
+  calculator_class- методы
+public_html-шаблон 
+  css
+  js
+  img
+  index-основная страница шаблона основана на ajax
+templates
+  calc_form-форма
