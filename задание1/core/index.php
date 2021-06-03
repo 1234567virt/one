@@ -1,10 +1,7 @@
 <?php
-if(!isset($_COOKIE["count"])){
-    $_COOKIE["count"]=1;
+if(isset($_COOKIE["count"])){
+    $count=$_COOKIE["count"];
+    $count++;
 }
-else{
-   $cookie = $_COOKIE['count']++;
-    setcookie("count", $cookie);
-}
-echo $img;
+
 ?>
