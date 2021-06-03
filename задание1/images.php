@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php
+$count=1;
  require_once("core/upload.php");
+require_once("core/index.php");
+setcookie('count', $count);
  $img=move_images();//Проверка на тип файла
 ?>
 
@@ -17,9 +20,9 @@
 </head>
 
 <body id="templatemo_body">
-    <div style="margin:0 auto;">
-        <img src=<?php include("core/index.php");?>>
-        <img src=<?php include("core/index.php");?>>
+    <div styl
+        
+        <img src=<?php echo $img;?>>
     </div>
     <center> <?php echo $_COOKIE["count"];?></center>
     <!--Вывод результата количества изображений-->
