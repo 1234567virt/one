@@ -20,7 +20,7 @@ setcookie('count', $count);
 </head>
 
 <body id="templatemo_body">
-    <div styl
+    <div style="margin:0 auto;">
         
         <img src=<?php echo $img;?>>
     </div>
